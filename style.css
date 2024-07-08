@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-#s1{
-    margin-left: 13vh;
-}
-
-#s2{
-    display: none;
-}
-
-
 
 /*PAGE D'ACCEUIL? */
 .containeru{
@@ -218,7 +209,7 @@ footer {
     
    /*PAGE D'ACCEUIL? */
 .containeru{
-    margin-top: 6vh;
+    margin-top: 7vh;
     display: inline-block;
     justify-content: unset;
     background-color: lightcyan;
