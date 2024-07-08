@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#s1{
+    margin-left: 13vh;
+}
+
+#s2{
+    display: none;
+}
+
+
+
+/*PAGE D'ACCEUIL? */
+.containeru{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: lightcyan;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+}
+
+.icon{
+    width: 40%;
+    border-radius: 30vh;
+    color: aliceblue;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+.icon img{
+    width: 80%;
+    transition: transform 0.9s; /* Ajoute une transition fluide */
+}
+
+.icon img:hover {
+        transform: scale(0.9); /* Agrandissement de 20% */
+    }
+
+.text0{
+    width: 40%;
+    color: azure;
+    padding: 10px;
+    margin-top: 20vh;
+}
+
+.text0 h1{
+    text-align: center;
+    font-family: cursive;
+    color: blue;
+}
+
+.text0 h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.but{
+    font-family: cursive;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(6, 102, 89, 0.151);
+    width: 300px;
+    padding: 15px;
+    border-radius: 30vh;
+}
+
+.but a{
+    text-decoration: none;
+    margin-bottom: 5vh;
+}
+/*FIN PAGE D'ACCEUIL*/
+
+.par1 h1{
+    padding: 2vh;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 2vh;
+}
+
+.par1 p{
+    margin: auto;
+    width: 70%;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container2 .col1 h3{
+    text-align: center;
+    font-family: cursive;
+    color: blue;
+}
+
+.container2 .col1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.col1{
+    background-color: lightcyan;
+    border-radius: 1vh;
+    width: 27%;
+    padding: 2vh;
+    transition: transform 0.2s;
+}
+
+.col1 :hover{
+    transform: scale(1.03);
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+    margin-top: 50px;
+}
+
+.container3 .col2 h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.container3 .col2 p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.col2{
+    background-image: url(img/pexels-karolina-grabowska-4219153.jpg);
+    color: rgb(237, 244, 245);
+    border: 1vh solid rgb(234, 236, 238);
+    width: auto;
+    padding: 2vh;
+}
+
+.bute{
+    font-family: monospace;
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+    width: 300px;
+    padding: 15px;
+    border-radius: 30vh;
+}
+
+.bute a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-bottom: 5vh;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    color: #FFD700;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.footer-section ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+@media all and (max-device-width: 580px){
+    
+   /*PAGE D'ACCEUIL? */
+.containeru{
+    margin-top: 6vh;
+    display: inline-block;
+    justify-content: unset;
+    background-color: lightcyan;
+    border-bottom-left-radius: 0vh;
+    border-bottom-right-radius: 0vh;
+}
+
+.icon{
+    padding: 0vh 0vh 0vh 4vh;
+    width: 100%;
+    border-radius: 30vh;
+    color: aliceblue;
+    margin-top: 2vh;
+    margin-left: 0vh;
+}
+
+.icon img{
+    width: 80%;
+    transition: none; /* Ajoute une transition fluide */
+}
+
+.text0{
+    width: 100%;
+    color: azure;
+    padding: 10px;
+    margin-top: 2vh;
+}
+
+.text0 h1{
+    text-align: center;
+    font-family: monospace;
+    color: blue;
+}
+
+.text0 h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.but{
+    font-family: monospace;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(6, 102, 89, 0.151);
+    width: 300px;
+    padding: 15px;
+    border-radius: 30vh;
+}
+
+.but a{
+    text-decoration: none;
+    margin-bottom: 5vh;
+}
+
+.par1 h1{
+    padding: 0vh;
+    margin-top: 4vh;
+    text-align: center;
+    font-family: monospace;
+}
+
+.par1 p{
+    margin: auto;
+    width: 90%;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container2 .col1 h3{
+    text-align: center;
+    font-family: monospace;
+    color: blue;
+}
+
+.container2 .col1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.col1{
+    background-color: lightcyan;
+    border-radius: 1vh;
+    width: 100%;
+    padding: 2vh;
+    transition: none;
+    margin-top: 8px;
+}
+
+.container2{
+    padding: 3vh;
+    display: inline-block;
+    justify-content: unset;
+    gap: 1vh;
+    margin-top: 15px;
+}
+
+}
